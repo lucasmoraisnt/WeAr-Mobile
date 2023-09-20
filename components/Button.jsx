@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         width: 100,
         height: 40,
         borderRadius: 5,
-        backgroundColor: "rgba(166,134,146,1)",
+        backgroundColor: "rgb(166,134,146)",
         justifyContent: "center"
     },
     txtBotao: {

@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   container: {
     height: "100%",
     paddingHorizontal: 10,
-    backgroundColor: 'rgba(242,196,208,1)',
+    backgroundColor: 'rgb(242,196,208)',
   },
   menu: {
     flexDirection: 'row',
@@ -88,10 +88,9 @@ const styles = StyleSheet.create({
   },
   h1: {
     justifyContent: 'center',
-    color: 'rgba(0,0,0,1)',
+    color: '#000',
     fontSize: 35,
     paddingHorizontal: 25,
-    fontFamily: 'Inter, sans-serif',
     fontWeight: '400',
     textAlign: 'center',
     marginTop: "10%",
@@ -101,7 +100,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     paddingHorizontal: 18,
     paddingVertical: 10,
-    backgroundColor: 'rgba(245,137,159,1)',
+    backgroundColor: 'rgb(245,137,159)',
   },
   input:{
     backgroundColor: "#fff",
@@ -119,27 +118,25 @@ const styles = StyleSheet.create({
   },
   info: {
     color: 'rgba(0,0,0,1)',
-    fontSize: '25px',
-    lineHeight: '25px',
-    fontFamily: 'Inter, sans-serif',
+    fontSize: 25,
+    lineHeight: 25,
     fontWeight: '400',
   },
   cm: {
     flexDirection: 'column',
     justifyContent: 'center',
-    color: 'rgba(0,0,0,1)',
-    fontSize: '25px',
-    lineHeight: '25px',
-    fontFamily: 'Inter, sans-serif',
+    color: '#000',
+    fontSize: 25,
+    lineHeight: 25,
     fontWeight: '400',
     textAlign: 'center',
   },
 
   botao:{
-    backgroundColor: "rgba(166,134,146,1)",
+    backgroundColor: "rgb(166,134,146)",
     width: 97,
     borderRadius: 5,
-    borderColor: "rgba(0,0,0,1)",
+    borderColor: "#000",
     borderWidth: 1,
     paddingVertical: "1%",
     justifyContent: "center",
@@ -152,7 +149,6 @@ const styles = StyleSheet.create({
   },
   txtBotao:{
     color: "#fff",
-    fontFamily: 'Inter, sans-serif',
     fontWeight: '400',
     textAlign: "center"
   }

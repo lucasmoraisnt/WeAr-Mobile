@@ -14,19 +14,17 @@ export default Dados;
 
 const styles = StyleSheet.create({
     cod: {
-        color: "rgba(115,114,114,1)",
+        color: "rgb(115,114,114)",
         fontSize: 10,
         lineHeight: 10,
-        fontFamily: "Inter, sans-serif",
         paddingVertical: "3%",
         marginLeft: 15
     },
     preco: {
         marginLeft: 15,
-        color: "rgba(0,0,0,1)",
-        fontSize: "26px",
-        lineHeight: "28px",
-        fontFamily: "Inter, sans-serif",
+        color: "#000",
+        fontSize: 26,
+        lineHeight: 28,
         fontWeight: "400",
     }
 })

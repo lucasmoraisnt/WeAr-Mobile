@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         width: 40,
         height: 40,
         borderWidth: 1,
-        borderColor: 'rgba(153,152,152,1)',
+        borderColor: 'rgb(153,152,152)',
         borderRadius: 30,
         backgroundColor: "#000"
     },
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         width: 40,
         height: 40,
         borderWidth: 1,
-        borderColor: 'rgba(153,152,152,1)',
+        borderColor: 'rgb(153,152,152)',
         borderRadius: 30,
         backgroundColor: "#fff"
     },
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         width: 40,
         height: 40,
         borderWidth: 1,
-        borderColor: 'rgba(153,152,152,1)',
+        borderColor: 'rgb(153,152,152)',
         borderRadius: 30,
         backgroundColor: "#194c30"
     }

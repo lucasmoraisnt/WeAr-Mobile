@@ -35,7 +35,6 @@ const styles = StyleSheet.create({
     titulo: {
         fontSize: 16,
         lineHeight: 20,
-        fontFamily: "Inter, sans-serif",
     },
     opcoes:{
         flexDirection: "row",

@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
     height: 50
   },
   camisa: {
-    width: "100%"
+    width: "100%",
+    backgroundColor: "#fff"
   },
   headerDados:{
     flexDirection: "row",
