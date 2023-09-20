@@ -9,11 +9,9 @@ import styles from "./Styles";
 import Roupa from "./pages/Roupa";
 import Provador from "./pages/Provador";
 
-
-
 const App = () => {
 
-  const { Navigator, Screen } = createBottomTabNavigator();
+  const Tab = createBottomTabNavigator();
 
   return (
     <NavigationContainer style={styles.container}>
@@ -31,10 +29,10 @@ const App = () => {
         </View>
       </SafeAreaView>
 
-      <Navigator>
-        <Screen name="Roupa">{() => <Roupa />}</Screen>
-        <Screen name="Provador">{() => <Provador />}</Screen>
-      </Navigator>
+      <Tab.Navigator>
+        <Tab.Screen name="Roupa" component={Roupa}/>
+        <Tab.Screen name="Provador" component={Provador}/>
+      </Tab.Navigator>
 
     </NavigationContainer>
   )
